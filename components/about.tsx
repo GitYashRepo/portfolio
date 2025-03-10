@@ -19,29 +19,32 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        I have started my coding journey in 2022, and started to learn{" "}
-        <span className="font-medium">PYTHON</span> but after that I started
-        to learn Javascript as Somehow i have build my intrest in web development.
-        So, I decided to sharpen my skills for Programming and Web-Development
-        & then I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        </p>
-        <p className="mb-3">
-        <span className="italic">My favorite part of programming</span> is that,
-        I like to develop websites specially those available on
-        <span className="font-medium">AWWWARDS</span> websites which uses GSAP,
-        Three.js etc to build a smooth user experience and highly attractive animated
-        websites.My core stack is{" "}
-        <span className="font-medium">React, Next.js, Node.js, and MongoDB</span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies.
-      </p>
+  I began my coding journey in 2022 with{" "}
+  <span className="font-medium">Python</span>, but soon developed a strong
+  interest in JavaScript and web development. To sharpen my programming and
+  web development skills, I enrolled in a coding bootcamp and gained hands-on
+  experience in{" "}
+  <span className="font-medium">full-stack web development</span>.
+</p>
 
-      <p>
-        <span className="italic">When I'm not coding</span>,  I enjoy{" "}
-        <span className="font-medium">discovering new things in this field</span>.
-        I am currently learning about{" "} <span className="font-medium">devops and web3</span>.
-      </p>
+<p className="mb-3">
+  <span className="italic">My favorite part of programming</span> is building
+  visually engaging websites, especially those featured on
+  <span className="font-medium"> AWWWARDS</span>. I enjoy working with GSAP
+  and Three.js to create smooth, immersive user experiences with stunning
+  animations. My core stack includes{" "}
+  <span className="font-medium">React, Next.js, Node.js, and MongoDB</span>.
+  Additionally, I am proficient in TypeScript and Prisma and always eager to
+  explore new technologies.
+</p>
+
+<p>
+  <span className="italic">When I'm not coding</span>, I enjoy{" "}
+  <span className="font-medium">exploring new advancements in the field</span>.
+  Currently, I am expanding my knowledge in{" "}
+  <span className="font-medium">DevOps and Web3</span>.
+</p>
+
     </motion.section>
   );
 }
