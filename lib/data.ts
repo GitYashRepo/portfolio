@@ -42,7 +42,7 @@ export const experiencesData = [
     description:
       "I have learned MERN Stack development from Masai School. It was a 12 month course.",
     icon: React.createElement(LuGraduationCap),
-    date: "2023 - 2024",
+    date: "Sept,2023 - Sept,2024",
   },
   {
     exptitle: "FrontEnd Domination Course",
@@ -50,7 +50,7 @@ export const experiencesData = [
     description:
       "I have sharpen my skills like - GSAP, Freamer Motion, Scrolltrigger, Three.js etc. within 3 months by covering this course",
     icon: React.createElement(LuGraduationCap),
-    date: "Jan, 2023 - April,2024",
+    date: "Jan, 2024 - April,2024",
   },
   {
     exptitle: "BackEnd Domination Course",
@@ -58,7 +58,7 @@ export const experiencesData = [
     description:
       "I have gained knowledge about backend technologies like - Node.js, Express, MongoDB, GoogleOAuth, JWT, Bcrypt, Passport, Nodemailer, middlewares, PaymentGateways etc. in this course.",
     icon: React.createElement(LuGraduationCap),
-    date: "Aug, 2023 - Nov, 2024",
+    date: "Aug, 2024 - Nov, 2024",
   },
   {
     exptitle: "Freelancing as a Full-Stack Developer",
