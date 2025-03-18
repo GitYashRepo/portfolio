@@ -46,6 +46,52 @@ export default function Project({
               </li>
             ))}
           </ul>
+          {title === "SMIR Ecommerce" ? (
+            <a
+              href="https://github.com/GitYashRepo/smirEcom/tree/main/fe"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-4 text-blue-500 dark:text-blue-400 hover:underline"
+            >
+              GitHub:View Project
+            </a>
+          ): title === "Notes App" ? (
+            <a
+              href="https://github.com/GitYashRepo/NotesApp"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-4 text-blue-500 dark:text-blue-400 hover:underline"
+              >
+                GitHub:View Project
+              </a>
+          ): title === "Omegle App Clone" ? (
+            <a
+              href="https://github.com/GitYashRepo/OmegleClone"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-4 text-blue-500 dark:text-blue-400 hover:underline"
+              >
+                GitHub:View Project
+              </a>
+          ): title === "Dentists Website" ? (
+            <a
+              href="https://github.com/GitYashRepo/DentistWebSite"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-4 text-blue-500 dark:text-blue-400 hover:underline"
+              >
+                GitHub:View Project
+              </a>
+          ): title === "Taxy App" ? (
+            <a
+              href="https://github.com/GitYashRepo/TaxyBooking"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-4 text-blue-500 dark:text-blue-400 hover:underline"
+              >
+                GitHub:View Project
+              </a>
+          ): null}
         </div>
 
         <Image
