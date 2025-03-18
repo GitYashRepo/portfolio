@@ -45,6 +45,22 @@ export const experiencesData = [
     date: "2023 - 2024",
   },
   {
+    exptitle: "FrontEnd Domination Course",
+    location: "Sheryians Coding School",
+    description:
+      "I have sharpen my skills like - GSAP, Freamer Motion, Scrolltrigger, Three.js etc. within 3 months by covering this course",
+    icon: React.createElement(LuGraduationCap),
+    date: "Jan, 2023 - April,2024",
+  },
+  {
+    exptitle: "BackEnd Domination Course",
+    location: "Sheryians Coding School",
+    description:
+      "I have gained knowledge about backend technologies like - Node.js, Express, MongoDB, GoogleOAuth, JWT, Bcrypt, Passport, Nodemailer, middlewares, PaymentGateways etc. in this course.",
+    icon: React.createElement(LuGraduationCap),
+    date: "Aug, 2023 - Nov, 2024",
+  },
+  {
     exptitle: "Freelancing as a Full-Stack Developer",
     location: "Freelancer",
     description:
@@ -73,7 +89,7 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "SMIR Ecommerce ",
+    title: "SMIR Ecommerce",
     description:
       "I worked as a full-stack developer on this startup project for 6 months.",
     tags: ["React", "MongoDB", "Tailwind","Express"],
