@@ -7,6 +7,14 @@ import { motion, useScroll, useTransform } from "framer-motion";
 
 type ProjectProps = (typeof projectsData)[number];
 
+const projectLinks: Record<string, string> = {
+    "SMIR Ecommerce": "https://github.com/GitYashRepo/smirEcom/tree/main/fe",
+    "Notes App": "https://github.com/GitYashRepo/NotesApp",
+    "Omegle App Clone": "https://github.com/GitYashRepo/OmegleClone",
+    "Dentists Website": "https://github.com/GitYashRepo/DentistWebSite",
+    "Taxy App": "https://github.com/GitYashRepo/TaxyBooking",
+  };
+
 export default function Project({
   title,
   description,
@@ -46,52 +54,16 @@ export default function Project({
               </li>
             ))}
           </ul>
-          {title === "SMIR Ecommerce" ? (
+          {projectLinks[title] && (
             <a
-              href="https://github.com/GitYashRepo/smirEcom/tree/main/fe"
+              href={projectLinks[title]}
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-4 text-blue-500 dark:text-blue-400 hover:underline"
+              className="mt-4 flex items-center justify-center inline-block bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition"
             >
-              GitHub:View Project
+              View on GitHub
             </a>
-          ): title === "Notes App" ? (
-            <a
-              href="https://github.com/GitYashRepo/NotesApp"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-4 text-blue-500 dark:text-blue-400 hover:underline"
-              >
-                GitHub:View Project
-              </a>
-          ): title === "Omegle App Clone" ? (
-            <a
-              href="https://github.com/GitYashRepo/OmegleClone"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-4 text-blue-500 dark:text-blue-400 hover:underline"
-              >
-                GitHub:View Project
-              </a>
-          ): title === "Dentists Website" ? (
-            <a
-              href="https://github.com/GitYashRepo/DentistWebSite"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-4 text-blue-500 dark:text-blue-400 hover:underline"
-              >
-                GitHub:View Project
-              </a>
-          ): title === "Taxy App" ? (
-            <a
-              href="https://github.com/GitYashRepo/TaxyBooking"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-4 text-blue-500 dark:text-blue-400 hover:underline"
-              >
-                GitHub:View Project
-              </a>
-          ): null}
+          )}
         </div>
 
         <Image
