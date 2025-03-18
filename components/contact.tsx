@@ -31,10 +31,24 @@ export default function Contact() {
     >
       <SectionHeading>Contact me</SectionHeading>
 
+        <div className="flex flex-col items-center justify-center mb-10">
+          <p className="text-gray-700 mt-6 dark:text-white/80">
+            Please contact me directly on
+          </p>
+          <a
+            rel="noopener noreferrer"
+            className="w-[50%] mt-4 flex items-center justify-center inline-block bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition"
+            href="https://wa.me/918003316534" target="_blank">
+                WhatsApp
+          </a>
+        </div>
+
+      <SectionHeading>OR</SectionHeading>
+
       <p className="text-gray-700 -mt-6 dark:text-white/80">
-        Please contact me directly at{" "}
-        <a className="underline" href="mailto:example@gmail.com">
-          example@gmail.com
+        contact me at{" "}
+        <a className="underline" href="mailto:singhyash3012@gmail.com">
+          singhyash3012@gmail.com
         </a>{" "}
         or through this form.
       </p>
@@ -69,6 +83,7 @@ export default function Contact() {
         />
         <SubmitBtn />
       </form>
+
     </motion.section>
   );
 }
