@@ -119,8 +119,8 @@ export const projectsData = [
   {
     title: "Taxy App",
     description:
-      "I have build this website just to showcase my profenciacy MERN Stack, As this is a Full Stack Project",
-    tags: ["React", "Tailwind", "Framer","GSAP", "Express", "MongoDB", "Node.js", "GoogleOAuth","JWT", "Bcrypt"],
+      "this project showcase my profenciacy MERN Stack.",
+    tags: ["React", "Express", "MongoDB", "Node.js", "GoogleOAuth","JWT", "Bcrypt"],
     imageUrl: taxy,
   },
 ] as const;
