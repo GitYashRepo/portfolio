@@ -37,7 +37,7 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "MERN Stack development Course",
+    exptitle: "MERN Stack development Course",
     location: "Masai School",
     description:
       "I have learned MERN Stack development from Masai School. It was a 12 month course.",
@@ -45,7 +45,7 @@ export const experiencesData = [
     date: "2023 - 2024",
   },
   {
-    title: "Freelancing as a Full-Stack Developer",
+    exptitle: "Freelancing as a Full-Stack Developer",
     location: "Freelancer",
     description:
       "I have worked as a Freelancer for almost 1 year , during this time period i have worked on various projects, developed websites for clients from all fields like e-commerce, blogging, portfolio, astrologers-website etc.",
@@ -53,7 +53,7 @@ export const experiencesData = [
     date: "2023 - 2024",
   },
   {
-    title: "100xdev Cohort",
+    exptitle: "100xdev Cohort",
     location: "Harkirat Singh",
     description:
       "Joined this cohort to learn Devops and Web3 Technologies.",
@@ -61,10 +61,10 @@ export const experiencesData = [
     date: "Jan 2025",
   },
   {
-    title: "Working as a Front-End Developer at Cloudify.biz",
+    exptitle: "Working as a Front-End Developer at Cloudify.biz",
     location: "Cloudify , Denmark",
     description:
-      "I am working as a front-end developer at Cloudify.biz. I am working on React, Next.js, TypeScript, Tailwind etc.",
+      'I am working as a front-end developer at Cloudify.biz. I am working on React, Next.js, TypeScript, Tailwind etc.',
     icon: React.createElement(CgWorkAlt),
     date: "Feb 2025 - present",
   },
@@ -126,11 +126,11 @@ export const skillsData = [
   "Selenium",
   "Git",
   "Tailwind",
-  "Prisma",
+  "Prisma & ORMs",
   "Redux",
   "GraphQL",
   "GSAP",
-  "PostgreSQL",
+  "Postgres & SQL Databases",
   "Python",
   "Three.js",
   "Framer Motion",

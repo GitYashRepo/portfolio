@@ -44,11 +44,22 @@ export default function Experience() {
                 fontSize: "1.5rem",
               }}
             >
-              <h3 className="font-semibold capitalize">{item.title}</h3>
+              <h3 className="font-semibold capitalize">{item.exptitle}</h3>
               <p className="font-normal !mt-0">{item.location}</p>
               <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
                 {item.description}
               </p>
+              {/* Directly check if the current title matches */}
+                {item.exptitle === "Working as a Front-End Developer at Cloudify.biz" && (
+                  <a
+                    href="https://cloudify.biz"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-2 text-blue-600 dark:text-blue-400 hover:underline block"
+                  >
+                    Visit Cloudify.biz
+                  </a>
+                )}
             </VerticalTimelineElement>
           </React.Fragment>
         ))}
