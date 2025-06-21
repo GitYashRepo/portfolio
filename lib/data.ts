@@ -36,29 +36,21 @@ export const links = [
 ] as const;
 
 export const experiencesData = [
-  {
-    exptitle: "MERN Stack development Course",
-    location: "Masai School",
+    {
+    exptitle: "Working as a Front-End Developer at Cloudify.biz (Intern)",
+    location: "Cloudify , Denmark",
     description:
-      "I have learned MERN Stack development from Masai School. It was a 12 month course.",
-    icon: React.createElement(LuGraduationCap),
-    date: "Sept,2023 - Sept,2024",
+      'I am working as a front-end developer at Cloudify.biz. I am working on React, Next.js, TypeScript, Tailwind etc.',
+    icon: React.createElement(CgWorkAlt),
+    date: "Feb 2025 - June 2025",
   },
-  {
-    exptitle: "FrontEnd Domination Course",
-    location: "Sheryians Coding School",
+   {
+    exptitle: "100xdev Cohort",
+    location: "Harkirat Singh",
     description:
-      "I have sharpen my skills like - GSAP, Freamer Motion, Scrolltrigger, Three.js etc. within 3 months by covering this course",
+      "Joined this cohort to learn Devops and Web3 Technologies.",
     icon: React.createElement(LuGraduationCap),
-    date: "Jan, 2024 - April,2024",
-  },
-  {
-    exptitle: "BackEnd Domination Course",
-    location: "Sheryians Coding School",
-    description:
-      "I have gained knowledge about backend technologies like - Node.js, Express, MongoDB, GoogleOAuth, JWT, Bcrypt, Passport, Nodemailer, middlewares, PaymentGateways etc. in this course.",
-    icon: React.createElement(LuGraduationCap),
-    date: "Aug, 2024 - Nov, 2024",
+    date: "Jan 2025",
   },
   {
     exptitle: "Freelancing as a Full-Stack Developer",
@@ -69,22 +61,29 @@ export const experiencesData = [
     date: "2023 - 2024",
   },
   {
-    exptitle: "100xdev Cohort",
-    location: "Harkirat Singh",
+    exptitle: "BackEnd Domination Course",
+    location: "Sheryians Coding School",
     description:
-      "Joined this cohort to learn Devops and Web3 Technologies.",
+      "I have gained knowledge about backend technologies like - Node.js, Express, MongoDB, GoogleOAuth, JWT, Bcrypt, Passport, Nodemailer, middlewares, PaymentGateways etc. in this course.",
     icon: React.createElement(LuGraduationCap),
-    date: "Jan 2025",
+    date: "Aug, 2024 - Nov, 2024",
   },
   {
-    exptitle: "Working as a Front-End Developer at Cloudify.biz",
-    location: "Cloudify , Denmark",
+    exptitle: "FrontEnd Domination Course",
+    location: "Sheryians Coding School",
     description:
-      'I am working as a front-end developer at Cloudify.biz. I am working on React, Next.js, TypeScript, Tailwind etc.',
-    icon: React.createElement(CgWorkAlt),
-    date: "Feb 2025 - present",
+      "I have sharpen my skills like - GSAP, Freamer Motion, Scrolltrigger, Three.js etc. within 3 months by covering this course",
+    icon: React.createElement(LuGraduationCap),
+    date: "Jan, 2024 - April,2024",
   },
-
+  {
+    exptitle: "MERN Stack development Course",
+    location: "Masai School",
+    description:
+      "I have learned MERN Stack development from Masai School. It was a 12 month course.",
+    icon: React.createElement(LuGraduationCap),
+    date: "Sept,2023 - Sept,2024",
+  },
 ] as const;
 
 export const projectsData = [
