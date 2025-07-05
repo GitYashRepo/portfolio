@@ -40,15 +40,15 @@ export const experiencesData = [
     exptitle: "Working as a Front-End Developer at Cloudify.biz (Intern)",
     location: "Cloudify , Denmark",
     description:
-      'I am working as a front-end developer at Cloudify.biz. I am working on React, Next.js, TypeScript, Tailwind etc.',
+      'I have worked there as a Front-End Developer Inter for 4 months appx., managing their SaaS applications and building new features, I have worked over monorepo architecture, and have used technologies like React, Redux, Next.js, Tailwind CSS, and TypeScript etc.',
     icon: React.createElement(CgWorkAlt),
-    date: "Feb 2025 - June 2025",
+    date: "6th Feb 2025 - 20th June 2025",
   },
    {
     exptitle: "100xdev Cohort",
     location: "Harkirat Singh",
     description:
-      "Joined this cohort to learn Devops and Web3 Technologies.",
+      "Joined this cohort to learn Devops and Web3 Technologies. [Ongoing]",
     icon: React.createElement(LuGraduationCap),
     date: "Jan 2025",
   },
