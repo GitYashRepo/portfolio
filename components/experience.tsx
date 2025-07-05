@@ -49,16 +49,25 @@ export default function Experience() {
               <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
                 {item.description}
               </p>
-              {/* Directly check if the current title matches */}
-                {item.exptitle === "Working as a Front-End Developer at Cloudify.biz" && (
-                  <a
-                    href="https://cloudify.biz"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="mt-2 text-blue-600 dark:text-blue-400 hover:underline block"
-                  >
-                    Visit Cloudify.biz
-                  </a>
+                {item.exptitle.includes("Cloudify.biz") && (
+                    <div>
+                        <a
+                          href="https://cloudify.biz"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="mt-2 text-blue-600 dark:text-blue-400 hover:underline block"
+                        >
+                          Visit Cloudify.biz
+                        </a>
+                        <a
+                            href="/YASH_INTERNSHIP_CERTIFICATE.pdf"
+                            rel="noopener noreferrer"
+                            download="YASH_INTERNSHIP_CERTIFICATE.pdf"
+                            className="mt-2 text-blue-600 dark:text-blue-400 hover:underline block"
+                        >
+                            Download Internship Certificate
+                        </a>
+                    </div>
                 )}
             </VerticalTimelineElement>
           </React.Fragment>
