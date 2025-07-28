@@ -2,11 +2,10 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import smirImg from "@/public/Smir.png";
-import notesApp from "@/public/notesApp.png";
-import dentist from "@/public/Dentist.png";
-import taxy from "@/public/TaxyApp.png";
-import omegle from "@/public/omegle.png";
+import vaani from "@/public/vaani.png";
+import srgs from "@/public/srgs.png";
+import menstuff from "@/public/menstuff.png";
+import gapshap from "@/public/GapShap.png";
 
 export const links = [
   {
@@ -37,7 +36,7 @@ export const links = [
 
 export const experiencesData = [
     {
-    exptitle: "Working as a Front-End Developer at Cloudify.biz (Intern)",
+    exptitle: "Worked as a Front-End Developer at Cloudify.biz",
     location: "Cloudify , Denmark",
     description:
       'I have worked there as a Front-End Developer Inter for 4 months appx., managing their SaaS applications and building new features, I have worked over monorepo architecture, and have used technologies like React, Redux, Next.js, Tailwind CSS, and TypeScript etc.',
@@ -56,7 +55,7 @@ export const experiencesData = [
     exptitle: "Freelancing as a Full-Stack Developer",
     location: "Freelancer",
     description:
-      "I have worked as a Freelancer for almost 1 year , during this time period i have worked on various projects, developed websites for clients from all fields like e-commerce, blogging, portfolio, astrologers-website etc.",
+      "I have worked as a Freelancer for almost 2 year , during this time period i have worked on various projects, developed websites for clients from all fields like e-commerce, blogging, portfolio, astrologers-website etc.",
     icon: React.createElement(FaReact),
     date: "2023 - 2024",
   },
@@ -87,40 +86,37 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
-  {
-    title: "SMIR Ecommerce",
+    {
+    title: "Men-Stuff",
     description:
-      "I worked as a full-stack developer on this startup project for 6 months.",
-    tags: ["React", "MongoDB", "Tailwind","Express"],
-    imageUrl: smirImg,
+      "This is an Ecommerce Website compleately developed by me, It is a website for a company i.e MenStuff, they basically deals in Men's Clothing and Accessories. It has all the features of an Ecommerce Website from User SignIn/SignUp to Admin Dashboard with integrated PaymentGateway System",
+    tags: ["React", "Tailwind", "Framer-Motion", "Shadcn" , "Exress", "Node.js", "MongoDB", "JWT", "GoogleOAuth", "Passport.js", "Razorpay"],
+    imageUrl: menstuff,
+    hosturl:"https://menstuff.vercel.app"
   },
   {
-    title: "Notes App",
+    title: "Vaani Tech",
     description:
-      "Build a Notes App as i am practicing my TypeScript Skills",
-    tags: ["React", "TypeScript", "Tailwind"],
-    imageUrl: notesApp,
+      "I have created this Website for a new Startup, I have used ReactJs, GSAP, Framer Motion, Three.js etc. This project showcase my Frontend Development Skills.",
+    tags: ["React", "Three.js", "Framer-Motion", "GSAP", "Tailwind"],
+    imageUrl: vaani,
+    hosturl:"https://vaanitech.in"
   },
   {
-    title: "Omegle App Clone",
+    title: "SR Graphics & Signages",
     description:
-      "I have build this website to practice socket.io and webRTC",
-    tags: ["React", "TypeScript", "Socket.io", "WebRTC" , "Exress", "Node.js"],
-    imageUrl: omegle,
+      "This application is purely based on React Js , It is a website for a company i.e SR Graphics And Signages, they basically deals in Signages works.",
+    tags: ["React", "TypeScript", "Tailwind", "Framer-Motion", "GSAP"],
+    imageUrl: srgs,
+    hosturl:"https://srgraphicsandsignages.in"
   },
   {
-    title: "Dentists Website",
+    title: "Gap Shap",
     description:
-      "This is my Freelance Work, I have developed this website for a dentist, used Google Sheet for the contact form",
-    tags: ["React", "Tailwind", "Framer","GoogleSheet","GSAP"],
-    imageUrl: dentist,
-  },
-  {
-    title: "Taxy App",
-    description:
-      "this project showcase my profenciacy MERN Stack.",
-    tags: ["React", "Express", "MongoDB", "Node.js", "GoogleOAuth","JWT", "Bcrypt"],
-    imageUrl: taxy,
+      "This is a Chat Application purely developed by using MERN Stack with Socket.io",
+    tags: ["React", "Tailwind", "Framer","Socket.io","Express", "Node", "MongoDB"],
+    imageUrl: gapshap,
+    hosturl:"https://gap-shap-fe.vercel.app"
   },
 ] as const;
 
@@ -130,6 +126,7 @@ export const skillsData = [
   "JavaScript",
   "TypeScript",
   "React",
+  "Redux",
   "Next.js",
   "Node.js",
   "Express",
@@ -142,7 +139,6 @@ export const skillsData = [
   "Git",
   "Tailwind",
   "Prisma & ORMs",
-  "Redux",
   "GraphQL",
   "GSAP",
   "Postgres & SQL Databases",
