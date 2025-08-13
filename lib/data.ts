@@ -6,6 +6,7 @@ import vaani from "@/public/vaani.png";
 import srgs from "@/public/srgs.png";
 import menstuff from "@/public/menstuff.png";
 import gapshap from "@/public/GapShap.png";
+import webtech from "@/public/webtechware.png"
 
 export const links = [
   {
@@ -109,6 +110,14 @@ export const projectsData = [
     tags: ["React", "TypeScript", "Tailwind", "Framer-Motion", "GSAP"],
     imageUrl: srgs,
     hosturl:"https://srgraphicsandsignages.in"
+  },
+  {
+    title: "Web Tech Ware",
+    description:
+      "This is a website for a website development company , still under development phase will be available soon.",
+    tags: ["React", "Tailwind", "Framer","Express", "Node", "MongoDB"],
+    imageUrl: webtech,
+    hosturl:"https://webtechware.vercel.app"
   },
   {
     title: "Gap Shap",
