@@ -6,7 +6,10 @@ import vaani from "@/public/vaani.png";
 import srgs from "@/public/srgs.png";
 import menstuff from "@/public/menstuff.png";
 import gapshap from "@/public/GapShap.png";
-import webtech from "@/public/webtechware.png"
+import webtech from "@/public/webtechware.png";
+import dentalClinic from "@/public/dentalclinic.png";
+import cartapp from "@/public/cartapp.png";
+import driveClone from "@/public/driveClone.png";
 
 export const links = [
   {
@@ -88,12 +91,20 @@ export const experiencesData = [
 
 export const projectsData = [
     {
-    title: "Men-Stuff",
+    title: "Men-Stuff (Under Development)",
     description:
       "This is an Ecommerce Website compleately developed by me, It is a website for a company i.e MenStuff, they basically deals in Men's Clothing and Accessories. It has all the features of an Ecommerce Website from User SignIn/SignUp to Admin Dashboard with integrated PaymentGateway System",
-    tags: ["React", "Tailwind", "Framer-Motion", "Shadcn" , "Exress", "Node.js", "MongoDB", "JWT", "GoogleOAuth", "Passport.js", "Razorpay"],
+    tags: ["React", "Tailwind", "Framer-Motion", "Shadcn" , "Express", "Node.js", "MongoDB", "JWT", "GoogleOAuth", "Passport.js", "Razorpay"],
     imageUrl: menstuff,
     hosturl:"https://menstuff.vercel.app"
+  },
+  {
+    title: "Billing App (Under Development)",
+    description:
+      "This is an Ecommerce Website compleately developed by me, It is a website for a company i.e MenStuff, they basically deals in Men's Clothing and Accessories. It has all the features of an Ecommerce Website from User SignIn/SignUp to Admin Dashboard with integrated PaymentGateway System",
+    tags: ["React", "Tailwind", "Framer-Motion", "Shadcn" , "Express", "Node.js", "MongoDB", "JWT", "Razorpay", "BarcodeScannerMachine"],
+    imageUrl: cartapp,
+    hosturl:"https://cart-app-navy.vercel.app/"
   },
   {
     title: "Vaani Tech",
@@ -112,12 +123,28 @@ export const projectsData = [
     hosturl:"https://srgraphicsandsignages.in"
   },
   {
+    title: "City Dental Clinic (Under Development)",
+    description:
+      "This is Complete Full Stack Project , with Appointment Booking System And Contact Form!, We have used ReactJs, Shadcn, Tailwind , Node, Express etc.",
+    tags: ["React", "TypeScript", "Tailwind", "Shadcn", "GSAP", "Express", "Node", "MongoDB", "Nodemailer"],
+    imageUrl: srgs,
+    hosturl:"https://city-dental-clinic.vercel.app"
+  },
+  {
     title: "Web Tech Ware",
     description:
       "This is a website for a website development company , still under development phase will be available soon.",
     tags: ["React", "Tailwind", "Framer","Express", "Node", "MongoDB"],
     imageUrl: webtech,
     hosturl:"https://webtechware.vercel.app"
+  },
+  {
+    title: "Drive Clone",
+    description:
+      "This is a Google Drive Clone, where user can upload their files and can view them in their dashboard, I have used ReactJs for frontend and NodeJs, Express, MongoDB for backend.",
+    tags: ["React", "Tailwind", "Framer","Express", "Node", "MongoDB", "Cloudinary", "Multer", "Redis"],
+    imageUrl: driveClone,
+    hosturl:"https://google-drive-rosy.vercel.app"
   },
   {
     title: "Gap Shap",
@@ -134,9 +161,22 @@ export const skillsData = [
   "CSS",
   "JavaScript",
   "TypeScript",
-  "React",
+  "Python",
+  "React.js",
+  "React Native",
+  "Expo",
   "Redux",
   "Next.js",
+  "Graphql",
+  "tensorflow.js",
+  "Chakra UI",
+  "Material UI",
+  "Shadcn UI",
+  "Sass",
+  "AWS",
+  "Firebase",
+  "Docker",
+  "Vercel & Netlify",
   "Node.js",
   "Express",
   "MongoDB",
