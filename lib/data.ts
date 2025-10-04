@@ -127,7 +127,7 @@ export const projectsData = [
     description:
       "This is Complete Full Stack Project , with Appointment Booking System And Contact Form!, We have used ReactJs, Shadcn, Tailwind , Node, Express etc.",
     tags: ["React", "TypeScript", "Tailwind", "Shadcn", "GSAP", "Express", "Node", "MongoDB", "Nodemailer"],
-    imageUrl: srgs,
+    imageUrl: dentalClinic,
     hosturl:"https://city-dental-clinic.vercel.app"
   },
   {
