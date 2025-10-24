@@ -10,6 +10,7 @@ import webtech from "@/public/webtechware.png";
 import dentalClinic from "@/public/dentalclinic.png";
 import cartapp from "@/public/cartapp.png";
 import driveClone from "@/public/driveClone.png";
+import KabaadMandi from "@/public/kabaadmandi.png";
 
 export const links = [
   {
@@ -90,6 +91,14 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+    {
+    title: "KabaadMandi",
+    description:
+      "This is a Full Stack Application where users can sell their scrap items like Plastic, Paper, Metal, electronic scraps etc. I have used Next Js for frontend , MongoDB for database, Socket.IO for buyers and sellers to chat on this application, Socket-Server hosted on Render and Next Js hosted on Vercel. I used Next-Auth for user authentication and Razorpay for payment gateway.",
+    tags: ["Next-Js", "Tailwind", "Framer-Motion", "Shadcn" , "Express", "Node.js", "MongoDB", "JWT", "Next-Auth", "Socket.IO", "Razorpay"],
+    imageUrl: KabaadMandi,
+    hosturl:"https://kabaadimandi.vercel.app"
+  },
     {
     title: "Men-Stuff (Under Development)",
     description:
